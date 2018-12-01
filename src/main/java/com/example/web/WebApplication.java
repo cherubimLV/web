@@ -17,7 +17,7 @@ public class WebApplication {
 	@RequestMapping("/hello")
 	@ResponseBody
 	public String hello(String name){
-		name = "hello:"+name;
+		name = "hello:"+name+"!!!";
 		return name;
 	}
 }
