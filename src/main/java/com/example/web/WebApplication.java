@@ -6,6 +6,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @SpringBootApplication
 @Controller
 public class WebApplication {
@@ -17,7 +20,7 @@ public class WebApplication {
 	@RequestMapping("/hello")
 	@ResponseBody
 	public String hello(String name){
-		name = "hello:"+name+"!!!";
+		name = "hello:"+name+"!!!？？？？？？？？？？";
 		return name;
 	}
 }
